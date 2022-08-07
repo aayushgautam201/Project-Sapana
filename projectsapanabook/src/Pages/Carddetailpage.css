@@ -1,0 +1,29 @@
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.whatsapp-btn{
+    /* background-color: green;
+    outline: none;
+    color: white;
+    opacity: 1;
+    transition: 0.3s all; */
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #21c73d;
+    color: white;
+    border-radius: 0.5rem;
+    border: 2px solid #21c73d;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+    transition: all 300ms ease-in-out;
+}
+.whatsapp-btn:hover{
+  transform: translateY(-3px);
+  background-color: transparent;
+  color: inherit;
+}
